@@ -3,13 +3,13 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-    apiKey: "AIzaSyAj5NGFCFkikv-HyXC92ElVLAjSNCiSzYE",
-    authDomain: "crwn-db-c902a.firebaseapp.com",
-    projectId: "crwn-db-c902a",
-    storageBucket: "crwn-db-c902a.appspot.com",
-    messagingSenderId: "317550526104",
-    appId: "1:317550526104:web:47d2169b9ae1eba6f9daed",
-    measurementId: "G-EHCG1Y6FF6"
+    apiKey: "AIzaSyAkkYhmv5AL0D1DKuiA_JOoeUSDFP9VjBk",
+    authDomain: "e-commerce-store-2021.firebaseapp.com",
+    projectId: "e-commerce-store-2021",
+    storageBucket: "e-commerce-store-2021.appspot.com",
+    messagingSenderId: "394299283750",
+    appId: "1:394299283750:web:745f798b92a92a5b0e49e7",
+    measurementId: "G-PPTGNQ3X70"
   };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
